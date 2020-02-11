@@ -5,9 +5,12 @@ import org.apache.log4j.Logger;
 import com.qa.ims.controller.Action;
 import com.qa.ims.controller.CrudController;
 import com.qa.ims.controller.CustomerController;
+import com.qa.ims.controller.ItemController;
 import com.qa.ims.persistence.dao.CustomerDaoMysql;
+import com.qa.ims.persistence.dao.ItemDaoMySql;
 import com.qa.ims.persistence.domain.Domain;
 import com.qa.ims.services.CustomerServices;
+import com.qa.ims.services.ItemServices;
 import com.qa.ims.utils.Utils;
 
 public class Ims {
@@ -15,9 +18,9 @@ public class Ims {
 	public static final Logger LOGGER = Logger.getLogger(Ims.class);
 
 	public void imsSystem() {
-		LOGGER.info("What is your username");
+		LOGGER.info("Please enter your username: ");
 		String username = Utils.getInput();
-		LOGGER.info("What is your password");
+		LOGGER.info("Please enter your password: ");
 		String password = Utils.getInput();
 		
 		LOGGER.info("Which entity would you like to use?");
@@ -35,6 +38,8 @@ public class Ims {
 			doAction(customerController, action);
 			break;
 		case ITEM:
+			ItemController itemController = new ItemController(new ItemServices(new ItemDaoMySql(username, password)));
+			doAction(itemController, action);
 			break;
 		case ORDER:
 			break;
