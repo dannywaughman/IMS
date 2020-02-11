@@ -59,7 +59,7 @@ public class ItemDaoMySql implements Dao<Item>{
 	public Item readLatest() {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();
-				ResultSet resultSet = statement.executeQuery("SELECT FROM items ORDER BY id DESC LIMIT 1");) {
+				ResultSet resultSet = statement.executeQuery("SELECT * FROM items ORDER BY id DESC LIMIT 1");) {
 			resultSet.next();
 			return itemFromResultSet(resultSet);
 		} catch (Exception e) {
