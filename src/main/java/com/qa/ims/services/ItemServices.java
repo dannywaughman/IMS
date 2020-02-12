@@ -5,20 +5,20 @@ import java.util.List;
 import com.qa.ims.persistence.dao.Dao;
 import com.qa.ims.persistence.domain.Item;
 
-public class ItemServices implements CrudServices<Item>{
-	
+public class ItemServices implements CrudServices<Item> {
+
 	Dao<Item> itemDao;
-	
+
 	public ItemServices(Dao<Item> itemDao) {
 		this.itemDao = itemDao;
-	}
-	
-	public List<Item> readAll() {
-		return itemDao.readAll();
 	}
 
 	public Item create(Item item) {
 		return itemDao.create(item);
+	}
+
+	public List<Item> readAll() {
+		return itemDao.readAll();
 	}
 
 	public Item update(Item item) {
@@ -28,6 +28,5 @@ public class ItemServices implements CrudServices<Item>{
 	public void delete(Long id) {
 		itemDao.delete(id);
 	}
-
 
 }

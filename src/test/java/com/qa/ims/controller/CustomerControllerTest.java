@@ -20,13 +20,13 @@ import com.qa.ims.services.CustomerServices;
 public class CustomerControllerTest {
 	
 	/**
-	 *  The thing I want to fake functionlity for
+	 *  The thing I want to fake functionality for
 	 */
 	@Mock
 	private CustomerServices customerServices;
 	
 	/**
-	 * Spy is used because i want to mock some methods inside the item I'm testing
+	 * Spy is used to mock some methods inside the item which is being tested
 	 * InjectMocks uses dependency injection to insert the mock into the customer controller
 	 */
 	@Spy

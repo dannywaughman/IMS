@@ -9,72 +9,72 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import com.qa.ims.persistence.domain.Item;
 
-public class ItemDaoMySql implements Dao<Item>{
-	
-	public static final Logger LOGGER = Logger.getLogger(ItemDaoMySql.class);
+import com.qa.ims.persistence.domain.Order;
+
+public class OrderDaoMySql implements Dao<Order> {
+
+	public static final Logger LOGGER = Logger.getLogger(OrderDaoMySql.class);
 
 	private String jdbcConnectionUrl;
 	private String username;
 	private String password;
-	
-	public ItemDaoMySql(String username, String password) {
+
+	public OrderDaoMySql(String username, String password) {
 		this.jdbcConnectionUrl = "jdbc:mysql://35.204.115.155:3306/projectdb";
 		this.username = username;
 		this.password = password;
 	}
-	
-	public ItemDaoMySql(String jdbcConnectionUrl, String username, String password) {
-		this.jdbcConnectionUrl = jdbcConnectionUrl;
+
+	public OrderDaoMySql(String jdbcConnectionUrl, String username, String password) {
+		this.jdbcConnectionUrl = "jdbc:mysql://35.204.115.155:3306/projectdb";
 		this.username = username;
 		this.password = password;
 	}
-	
-	Item itemFromResultSet(ResultSet resultSet) throws SQLException {
+
+	Order orderFromResultSet(ResultSet resultSet) throws SQLException {
 		Long id = resultSet.getLong("id");
-		String itemName = resultSet.getString("item_name");
-		int itemValue = resultSet.getInt("item_value");
-		return new Item(id, itemName, itemValue);
+		Long customerId = resultSet.getLong("customer_id");
+		float totalValue = resultSet.getFloat("total_value");
+		return new Order(id, customerId, totalValue);
 	}
-	
+
 	@Override
-	public List<Item> readAll() {
-		try (Connection connection = DriverManager
-				.getConnection(jdbcConnectionUrl, username, password);
+	public List<Order> readAll() {
+		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();
-				ResultSet resultSet = statement.executeQuery("SELECT * FROM items");) {
-			ArrayList<Item> items = new ArrayList<>();
+				ResultSet resultSet = statement.executeQuery("SELECT * FROM orders");) {
+			ArrayList<Order> orders = new ArrayList<>();
 			while (resultSet.next()) {
-				items.add(itemFromResultSet(resultSet));
+				orders.add(orderFromResultSet(resultSet));
 			}
-			return items;
+			return orders;
 		} catch (SQLException e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
 		}
 		return new ArrayList<>();
 	}
-	
-	public Item readLatest() {
+
+	public Order readLatest() {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();
-				ResultSet resultSet = statement.executeQuery("SELECT * FROM items ORDER BY id DESC LIMIT 1");) {
+				ResultSet resultSet = statement.executeQuery("SELECT * FROM orders ORDER BY id DESC LIMIT 1");) {
 			resultSet.next();
-			return itemFromResultSet(resultSet);
+			return orderFromResultSet(resultSet);
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
 		}
 		return null;
 	}
-	
+
 	@Override
-	public Item create(Item item) {
+	public Order create(Order order) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();) {
-			statement.executeUpdate("INSERT INTO items(item_name, item_value) values('" + item.getitemName()
-					+ "','" + item.getitemValue() + "')");
+			statement.executeUpdate("INSERT INTO orders(customer_id, total_value) values('" + order.getCustomerId()
+					+ "','" + order.getTotalValue() + "')");
 			return readLatest();
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
@@ -82,43 +82,42 @@ public class ItemDaoMySql implements Dao<Item>{
 		}
 		return null;
 	}
-	
-	public Item readItem(Long id) {
+
+	public Order readOrder(Long id) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();
-				ResultSet resultSet = statement.executeQuery("SELECT * FROM items WHERE id = "+id);) {
+				ResultSet resultSet = statement.executeQuery("SELECT * FROM orders WHERE id = " + id);) {
 			resultSet.next();
-			return itemFromResultSet(resultSet);
+			return orderFromResultSet(resultSet);
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
 		}
 		return null;
 	}
-	
+
 	@Override
-	public Item update(Item item) {
+	public Order update(Order order) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();) {
-			statement.executeUpdate("UPDATE items SET item_name ='" + item.getitemName() + "', item_value ='"
-					+ item.getitemValue() + "' WHERE id =" + item.getId());
-			return readItem(item.getId());
+			statement.executeUpdate("UPDATE orders SET customer_id ='" + order.getCustomerId() + "', total_value ='"
+					+ order.getTotalValue() + "' WHERE id =" + order.getId());
+			return readOrder(order.getId());
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
 		}
 		return null;
 	}
-	
+
 	public void delete(long id) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();) {
-			statement.executeUpdate("DELETE FROM items WHERE id = " + id);
+			statement.executeUpdate("DELETE FROM orders WHERE id = " + id);
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());
 		}
 	}
-	
 
 }

@@ -14,7 +14,7 @@ import com.qa.ims.services.ItemServices;
 import com.qa.ims.utils.Utils;
 
 public class Ims {
-	
+
 	public static final Logger LOGGER = Logger.getLogger(Ims.class);
 
 	public void imsSystem() {
@@ -22,19 +22,20 @@ public class Ims {
 		String username = Utils.getInput();
 		LOGGER.info("Please enter your password: ");
 		String password = Utils.getInput();
-		
+
 		LOGGER.info("Which entity would you like to use?");
 		Domain.printDomains();
-		
+
 		Domain domain = Domain.getDomain();
 		LOGGER.info("What would you like to do with " + domain.name().toLowerCase() + ":");
 
 		Action.printActions();
 		Action action = Action.getAction();
-		
+
 		switch (domain) {
 		case CUSTOMER:
-			CustomerController customerController = new CustomerController(new CustomerServices(new CustomerDaoMysql(username, password)));
+			CustomerController customerController = new CustomerController(
+					new CustomerServices(new CustomerDaoMysql(username, password)));
 			doAction(customerController, action);
 			break;
 		case ITEM:
@@ -48,9 +49,9 @@ public class Ims {
 		default:
 			break;
 		}
-		
+
 	}
-	
+
 	public void doAction(CrudController crudController, Action action) {
 		switch (action) {
 		case CREATE:
