@@ -1,22 +1,21 @@
 package com.qa.ims.persistence.domain;
 
 public class Item {
-	
+
 	private long id;
 	private String itemName;
 	private float itemValue;
-	
-	public Item (String itemName,float itemValue) {
+
+	public Item(String itemName, float itemValue) {
 		this.itemName = itemName;
 		this.itemValue = itemValue;
 	}
-	
+
 	public Item(long id, String itemName, float itemValue) {
 		this.id = id;
 		this.itemName = itemName;
 		this.itemValue = itemValue;
 	}
-
 
 	public long getId() {
 		return id;
@@ -41,7 +40,7 @@ public class Item {
 	public void setitemValue(float itemValue) {
 		this.itemValue = itemValue;
 	}
-	
+
 	public String toString() {
 		return "id:" + id + " - Item: " + itemName + " - Price: " + itemValue;
 	}
@@ -72,15 +71,9 @@ public class Item {
 				return false;
 		} else if (!itemName.equals(other.itemName))
 			return false;
-		if (Float.floatToIntBits(itemValue) != Float.floatToIntBits(other.itemValue))
+		else
 			return false;
 		return true;
-	}
-
-
-	public void setId(Object object) {
-		// TODO Auto-generated method stub
-		
 	}
 
 }
