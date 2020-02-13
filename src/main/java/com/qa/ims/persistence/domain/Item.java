@@ -71,16 +71,10 @@ public class Item {
 				return false;
 		} else if (!itemName.equals(other.itemName))
 			return false;
-		if (Float.floatToIntBits(itemValue) != Float.floatToIntBits(other.itemValue))
+		else if (Float.floatToIntBits(itemValue) != Float.floatToIntBits(other.itemValue))
 			return false;
 		return true;
 	}
 
-	public void setitemValue(Object object) {
-		
-	}
-	
-	public void setId(Object object) {
-		
-	}
+
 }
