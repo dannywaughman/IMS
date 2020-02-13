@@ -30,16 +30,16 @@ public class Item {
 		return itemName;
 	}
 
-	public void setitemName(String item_name) {
-		this.itemName = item_name;
+	public void setitemName(String itemName) {
+		this.itemName = itemName;
 	}
 
 	public float getitemValue() {
 		return itemValue;
 	}
 
-	public void setitemValue(float item_value) {
-		this.itemValue = item_value;
+	public void setitemValue(float itemValue) {
+		this.itemValue = itemValue;
 	}
 	
 	public String toString() {
@@ -77,9 +77,6 @@ public class Item {
 		return true;
 	}
 
-	public void setitemValue(Object object) {
-		
-	}
 
 	public void setId(Object object) {
 		// TODO Auto-generated method stub

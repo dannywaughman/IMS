@@ -104,8 +104,8 @@ public class ItemTest {
 
 	@Test
 	public void nullItemValueOnBoth() {
-		item.setitemValue(null);
-		other.setitemValue(null);
+		item.setitemValue(0);
+		other.setitemValue(0);
 		assertTrue(item.equals(other));
 	}
 
