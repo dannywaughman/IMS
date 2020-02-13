@@ -55,6 +55,10 @@ public class ItemTest {
 
 	@Test
 	public void checkEqualityBetweenDifferentObjects() {
+		item.setitemName("Beverage");
+		other.setitemName("Beverage");
+		item.setitemValue(5);
+		other.setitemValue(5);
 		assertTrue(item.equals(other));
 	}
 

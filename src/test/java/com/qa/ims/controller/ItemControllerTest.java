@@ -52,7 +52,7 @@ public class ItemControllerTest {
 		Mockito.doReturn(itemName).when(itemController).getInput();
 		Mockito.doReturn(itemValue).when(itemController).getInputFloat();
 		Item item = new Item(itemName, itemValue);
-		Item savedItem = new Item(1L, "Whiskey", 6);
+		Item savedItem = new Item(1L, "Whiskey", 6f);
 		Mockito.when(itemServices.create(item)).thenReturn(savedItem);
 		assertEquals(savedItem, itemController.create());
 	}
