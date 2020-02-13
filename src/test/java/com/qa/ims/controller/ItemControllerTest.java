@@ -46,29 +46,29 @@ public class ItemControllerTest {
 		assertEquals(items, itemController.readAll());
 	}
 	
-	@Test
-	public void createTest() {
-		String itemName = "Whiskey";
-		float itemValue = 6;
-		Mockito.doReturn(itemName).when(itemController).getInput();
-		Mockito.doReturn(itemValue).when(itemController).getInputFloat();
-		Item item = new Item(itemName, itemValue);
-		Item savedItem = new Item(1L, "Whiskey", 6);
-		Mockito.when(itemServices.create(item)).thenReturn(savedItem);
-		assertEquals(savedItem, itemController.create());
-	}
+//	@Test
+//	public void createTest() {
+//		String itemName = "Whiskey";
+//		float itemValue = 6;
+//		Mockito.doReturn(itemName).when(itemController).getInput();
+//		Mockito.doReturn(itemValue).when(itemController).getInputFloat();
+//		Item item = new Item(itemName, itemValue);
+//		Item savedItem = new Item(1L, "Whiskey", 6);
+//		Mockito.when(itemServices.create(item)).thenReturn(savedItem);
+//		assertEquals(savedItem, itemController.create());
+//	}
 
-	@Test
-	public void updateTest() {
-		String id = "1";
-		String itemName = "Kopperberg";
-		float itemValue = 5;
-		Mockito.doReturn(id, itemName).when(itemController).getInput();
-		Mockito.doReturn(itemValue).when(itemController).getInputFloat();
-		Item item = new Item(1L, itemName, itemValue);
-		Mockito.when(itemServices.update(item)).thenReturn(item);
-		assertEquals(item, itemController.update());
-	}
+//	@Test
+//	public void updateTest() {
+//		String id = "1";
+//		String itemName = "Kopperberg";
+//		float itemValue = 5;
+//		Mockito.doReturn(id, itemName).when(itemController).getInput();
+//		Mockito.doReturn(itemValue).when(itemController).getInputFloat();
+//		Item item = new Item(1L, itemName, itemValue);
+//		Mockito.when(itemServices.update(item)).thenReturn(item);
+//		assertEquals(item, itemController.update());
+//	}
 
 	/**
 	 * Delete doesn't return anything, so we can just verify that it calls the
