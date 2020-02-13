@@ -49,9 +49,7 @@ public class ItemDaoMySql implements Dao<Item>{
 		}
 		return new ArrayList<>();
 	}
-	
 
-	
 	@Override
 	public Item create(Item item) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
@@ -101,6 +99,5 @@ public class ItemDaoMySql implements Dao<Item>{
 			LOGGER.error(e.getMessage());
 		}
 	}
-	
 
 }
