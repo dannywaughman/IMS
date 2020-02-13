@@ -25,12 +25,6 @@ public class ItemDaoMySql implements Dao<Item>{
 		this.password = password;
 	}
 	
-	public ItemDaoMySql(String jdbcConnectionUrl, String username, String password) {
-		this.jdbcConnectionUrl = jdbcConnectionUrl;
-		this.username = username;
-		this.password = password;
-	}
-	
 	Item itemFromResultSet(ResultSet resultSet) throws SQLException {
 		Long id = resultSet.getLong("id");
 		String itemName = resultSet.getString("item_name");
@@ -56,18 +50,7 @@ public class ItemDaoMySql implements Dao<Item>{
 		return new ArrayList<>();
 	}
 	
-	public Item readLatest() {
-		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
-				Statement statement = connection.createStatement();
-				ResultSet resultSet = statement.executeQuery("SELECT * FROM items ORDER BY id DESC LIMIT 1");) {
-			resultSet.next();
-			return itemFromResultSet(resultSet);
-		} catch (Exception e) {
-			LOGGER.debug(e.getStackTrace());
-			LOGGER.error(e.getMessage());
-		}
-		return null;
-	}
+
 	
 	@Override
 	public Item create(Item item) {
@@ -75,7 +58,6 @@ public class ItemDaoMySql implements Dao<Item>{
 				Statement statement = connection.createStatement();) {
 			statement.executeUpdate("INSERT INTO items(item_name, item_value) values('" + item.getitemName()
 					+ "','" + item.getitemValue() + "')");
-			return readLatest();
 		} catch (Exception e) {
 			LOGGER.debug(e.getStackTrace());
 			LOGGER.error(e.getMessage());

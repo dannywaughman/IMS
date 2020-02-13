@@ -26,4 +26,5 @@ public class CustomerTest {
         assertTrue(customer.getFirstName() == "Mr");
         assertTrue(customer.getSurname() == "Bean");
 }
+	
 }
