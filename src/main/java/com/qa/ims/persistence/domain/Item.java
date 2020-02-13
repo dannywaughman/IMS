@@ -18,11 +18,6 @@ public class Item {
 	}
 
 
-
-	public Item() {
-		// TODO Auto-generated constructor stub
-	}
-
 	public long getId() {
 		return id;
 	}
@@ -81,6 +76,14 @@ public class Item {
 			return false;
 		return true;
 	}
-	
+
+	public void setitemValue(Object object) {
+		
+	}
+
+	public void setId(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

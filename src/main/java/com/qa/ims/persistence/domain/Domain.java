@@ -15,6 +15,8 @@ public enum Domain {
 
 	private String description;
 	
+	
+	
 	private Domain(String description) {
 		this.description = description;
 	}
@@ -41,5 +43,15 @@ public enum Domain {
 		}
 		return domain;
 	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	
 	
 }
