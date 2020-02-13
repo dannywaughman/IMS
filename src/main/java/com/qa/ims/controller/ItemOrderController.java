@@ -22,6 +22,10 @@ public class ItemOrderController implements CrudController<ItemOrder> {
 		return Utils.getInput();
 	}
 
+	float getInputFloat() {
+		return Utils.getInputFloat();
+	}
+
 	/**
 	 * Creates an ItemOrder by taking in user input
 	 */

@@ -12,7 +12,7 @@ public class CustomerDaoMysqlIT {
 
 	@Test
 	public void testDatabaseHasValues() {
-		CustomerDaoMysql customerDaoMysql = new CustomerDaoMysql("root", "root");
+		CustomerDaoMysql customerDaoMysql = new CustomerDaoMysql("root", "rootyroot");
 		List<Customer> customers = customerDaoMysql.readAll();
 		assertTrue(customers.size()>0);
 	}

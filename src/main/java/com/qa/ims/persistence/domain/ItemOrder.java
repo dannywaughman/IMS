@@ -7,20 +7,19 @@ public class ItemOrder {
 	private long customerId;
 	private long itemQuantity;
 
-	
-	public ItemOrder (long orderId, long customerId, long itemQuantity){
+	public ItemOrder(long orderId, long customerId, long itemQuantity) {
 		this.orderId = orderId;
 		this.customerId = customerId;
 		this.itemQuantity = itemQuantity;
 	}
-	
+
 	public ItemOrder(long id, long orderId, long customerId, long itemQuantity) {
 		this.id = id;
 		this.orderId = orderId;
 		this.customerId = customerId;
 		this.itemQuantity = itemQuantity;
 	}
-	
+
 	public long getId() {
 		return id;
 	}
@@ -49,7 +48,7 @@ public class ItemOrder {
 		return itemQuantity;
 	}
 
-	public void setItemQuantity(int itemQuantity) {
+	public void setItemQuantity(long itemQuantity) {
 		this.itemQuantity = itemQuantity;
 	}
 

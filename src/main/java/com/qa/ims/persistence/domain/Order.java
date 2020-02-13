@@ -1,48 +1,53 @@
 package com.qa.ims.persistence.domain;
 
+import java.util.List;
+
 public class Order {
 
-	private long id;
-	private long customerId;
-	private float totalValue;
+	private int id;
+	private List<ItemOrder> itemOrder;
+	private Customer customer;
+	private Item item;
 
-	public Order(long customerId, float totalValue) {
-		this.customerId = customerId;
-		this.totalValue = totalValue;
-	}
-
-	public Order(long id, long customerId, float totalValue) {
+	public Order(int id, Customer customer, List<ItemOrder> itemOrder, Item item) {
 		this.id = id;
-		this.customerId = customerId;
-		this.totalValue = totalValue;
+		this.customer = customer;
+		this.itemOrder = itemOrder;
+		this.item = item;
 	}
 
-	public long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
-	public long getCustomerId() {
-		return customerId;
+	public List<ItemOrder> getItemOrder() {
+		return itemOrder;
 	}
 
-	public void setCustomerId(long customerId) {
-		this.customerId = customerId;
+	public void setItemOrder(List<ItemOrder> itemOrder) {
+		this.itemOrder = itemOrder;
 	}
 
-	public float getTotalValue() {
-		return totalValue;
+	public Customer getCustomer() {
+		return customer;
 	}
 
-	public void setTotalValue(float totalValue) {
-		this.totalValue = totalValue;
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
 	}
 
-	public String toString() {
-		return "id:" + id + " - Customer ID:" + customerId + "Total Value: " + totalValue;
+	public Item getItem() {
+		return item;
 	}
+
+	public void setItem(Item item) {
+		this.item = item;
+	}
+	
+	
 
 }
