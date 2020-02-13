@@ -40,7 +40,11 @@ public class Item {
 	public void setitemValue(float itemValue) {
 		this.itemValue = itemValue;
 	}
-
+	
+	
+	/**
+	 * Returns the inputed parameters of item
+	 */
 	public String toString() {
 		return "id:" + id + " - Item: " + itemName + " - Price: " + itemValue;
 	}

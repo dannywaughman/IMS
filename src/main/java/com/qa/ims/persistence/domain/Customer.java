@@ -40,7 +40,11 @@ public class Customer {
 	public void setSurname(String surname) {
 		this.surname = surname;
 	}
-
+	
+	
+	/**
+	 * Returns the inputed parameters of customer
+	 */
 	public String toString() {
 		return "id:" + id + " - First Name: " + firstName + " - Surname: " + surname;
 	}
