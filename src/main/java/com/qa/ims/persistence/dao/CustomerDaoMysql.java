@@ -32,6 +32,12 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		this.password = password;
 	}
 
+	/**
+	 * This is what selects the specific customer from the Sql database
+	 * @param resultSet
+	 * @return
+	 * @throws SQLException
+	 */
 	Customer customerFromResultSet(ResultSet resultSet) throws SQLException {
 		Long id = resultSet.getLong("id");
 		String firstName = resultSet.getString("first_name");
@@ -93,6 +99,11 @@ public class CustomerDaoMysql implements Dao<Customer> {
 		return null;
 	}
 	
+	/**
+	 * Reads a customer from the database
+	 * @param id - customer id
+	 * @return - returns the customer 
+	 */
 	public Customer readCustomer(Long id) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();

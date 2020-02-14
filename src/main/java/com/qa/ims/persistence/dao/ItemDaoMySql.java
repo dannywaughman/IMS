@@ -25,6 +25,12 @@ public class ItemDaoMySql implements Dao<Item>{
 		this.password = password;
 	}
 	
+	/**
+	 * Selects the item from the database
+	 * @param resultSet
+	 * @return
+	 * @throws SQLException
+	 */
 	Item itemFromResultSet(ResultSet resultSet) throws SQLException {
 		Long id = resultSet.getLong("id");
 		String itemName = resultSet.getString("item_name");
@@ -32,6 +38,9 @@ public class ItemDaoMySql implements Dao<Item>{
 		return new Item(id, itemName, itemValue);
 	}
 	
+	/**
+	 * Reads all items in the database
+	 */
 	@Override
 	public List<Item> readAll() {
 		try (Connection connection = DriverManager
@@ -50,6 +59,9 @@ public class ItemDaoMySql implements Dao<Item>{
 		return new ArrayList<>();
 	}
 
+	/**
+	 * Creates a new item in the database
+	 */
 	@Override
 	public Item create(Item item) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
@@ -63,6 +75,11 @@ public class ItemDaoMySql implements Dao<Item>{
 		return null;
 	}
 	
+	/**
+	 * Reads an item in the database
+	 * @param id
+	 * @return - an item in the database
+	 */
 	public Item readItem(Long id) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();
@@ -76,6 +93,9 @@ public class ItemDaoMySql implements Dao<Item>{
 		return null;
 	}
 	
+	/**
+	 * Updates an item in the database
+	 */
 	@Override
 	public Item update(Item item) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
@@ -90,6 +110,9 @@ public class ItemDaoMySql implements Dao<Item>{
 		return null;
 	}
 	
+	/**
+	 * Deletes an item from the database
+	 */
 	public void delete(long id) {
 		try (Connection connection = DriverManager.getConnection(jdbcConnectionUrl, username, password);
 				Statement statement = connection.createStatement();) {

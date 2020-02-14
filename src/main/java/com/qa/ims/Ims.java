@@ -17,6 +17,9 @@ public class Ims {
 
 	public static final Logger LOGGER = Logger.getLogger(Ims.class);
 
+	/** 
+	 * imsSystem is the method that provides the user interface for the application
+	 */
 	public void imsSystem() {
 		LOGGER.info("Please enter your username: ");
 		String username = Utils.getInput();
@@ -52,6 +55,11 @@ public class Ims {
 
 	}
 
+	/** 
+	 * doAction refers to the necessary CRUD operation, called by imsSystem in response to user input
+	 * @param crudController
+	 * @param action
+	 */
 	public void doAction(CrudController crudController, Action action) {
 		switch (action) {
 		case CREATE:
