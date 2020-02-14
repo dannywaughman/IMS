@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_IOLc4E8JEeqjk-foKCPQug">
+  <modelElement href="Inventory3.uml#_Iny2wk8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OdnaoE8JEeqjk-foKCPQug" targetItem="_OdoowE8JEeqjk-foKCPQug" sourceItem="_OdjwQE8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Od0O8E8JEeqjk-foKCPQug" sourceAnchor="230.0,0.0" targetAnchor="76.0,144.0" dashed="true" superClass="_OdoowE8JEeqjk-foKCPQug" subClass="_OeBDQE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IscGME8JEeqjk-foKCPQug"/>
+    <bendpoints xmi:id="_O9tP8k8JEeqjk-foKCPQug" sourceY="-601" targetX="520" targetY="32"/>
+    <bendpoints xmi:id="_O9tP808JEeqjk-foKCPQug" sourceX="-520" sourceY="-601" targetY="32"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Od7jsU8JEeqjk-foKCPQug" targetItem="_OeBDQE8JEeqjk-foKCPQug" sourceItem="_Od7jsE8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Od_OEE8JEeqjk-foKCPQug" source="_OeBDQE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IttRhE8JEeqjk-foKCPQug"/>
+    <stereotypes xmi:id="_Od_OEU8JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_Itt4kE8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Od_OEk8JEeqjk-foKCPQug" text=""/>
+    <sourceRole xmi:id="_Od_OE08JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_IttRhU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Od_OFE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Od_OFU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Od_OFk8JEeqjk-foKCPQug" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory3.uml#_ItLGAk8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Od_OF08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Od_OGE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OeAcME8JEeqjk-foKCPQug" sourceAnchor="217.0,0.0" targetAnchor="90.0,145.0" target="_OicQQE8JEeqjk-foKCPQug" source="_OeBDQE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Itt4kU8JEeqjk-foKCPQug"/>
+    <bendpoints xmi:id="_O9tP8E8JEeqjk-foKCPQug" sourceY="-16" targetX="520" targetY="19"/>
+    <bendpoints xmi:id="_O9tP8U8JEeqjk-foKCPQug" sourceX="-520" sourceY="-16" targetY="19"/>
+    <stereotypes xmi:id="_OeAcMU8JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_ItufoE8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OeAcMk8JEeqjk-foKCPQug" text="">
+      <visualProperties xmi:id="_O9vFIE8JEeqjk-foKCPQug" position="-60.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OeAcM08JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_Itt4kk8JEeqjk-foKCPQug"/>
+      <visualProperties xmi:id="_O9ueFU8JEeqjk-foKCPQug" position="-236.5,-12.5"/>
+      <visibility xmi:id="_OeAcNE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OeAcNU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OeAcNk8JEeqjk-foKCPQug" aggregationKind="NONE" name="customerService" navigable="true">
+      <modelElement href="Inventory3.uml#_ItLtEE8JEeqjk-foKCPQug"/>
+      <visualProperties xmi:id="_O9vsME8JEeqjk-foKCPQug" position="69.0,-29.500000000000114"/>
+      <visibility xmi:id="_OeAcN08JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OeAcOE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_OePFsE8JEeqjk-foKCPQug" sourceAnchor="189.0,0.0" targetAnchor="76.0,144.0" dashed="true" superClass="_OdoowE8JEeqjk-foKCPQug" subClass="_Oekc4E8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IseicE8JEeqjk-foKCPQug"/>
+    <bendpoints xmi:id="_O9t3AE8JEeqjk-foKCPQug" sourceY="-33" targetX="-26" targetY="32"/>
+    <bendpoints xmi:id="_O9t3AU8JEeqjk-foKCPQug" sourceX="26" sourceY="-33" targetY="32"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Oeb6AE8JEeqjk-foKCPQug" source="_Oekc4E8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItufoU8JEeqjk-foKCPQug"/>
+    <stereotypes xmi:id="_Oeins08JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_Itufo08JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OeinsE8JEeqjk-foKCPQug" text=""/>
+    <sourceRole xmi:id="_OeinsU8JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_Itufok8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OejOxU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OejOxE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Oeinsk8JEeqjk-foKCPQug" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory3.uml#_ItMUIE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Oej10U8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Oej10E8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OegygE8JEeqjk-foKCPQug" sourceAnchor="189.0,194.0" targetAnchor="77.0,0.0" target="_OicQQE8JEeqjk-foKCPQug" source="_Oekc4E8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItufpE8JEeqjk-foKCPQug"/>
+    <stereotypes xmi:id="_OejOw08JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_ItvGsE8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OejOwE8JEeqjk-foKCPQug" text="">
+      <visualProperties xmi:id="_O9wTQE8JEeqjk-foKCPQug" position="-18.5,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OejOwU8JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_ItufpU8JEeqjk-foKCPQug"/>
+      <visualProperties xmi:id="_O9vsMU8JEeqjk-foKCPQug" position="5.5,5.0"/>
+      <visibility xmi:id="_Oej1008JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Oej10k8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OejOwk8JEeqjk-foKCPQug" aggregationKind="NONE" name="itemService" navigable="true">
+      <modelElement href="Inventory3.uml#_ItMUIk8JEeqjk-foKCPQug"/>
+      <visualProperties xmi:id="_O9wTQU8JEeqjk-foKCPQug" position="-77.0,-49.5"/>
+      <visibility xmi:id="_Oej11U8JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_Oej11E8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OezGYE8JEeqjk-foKCPQug" source="_OfEzNE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItvGsU8JEeqjk-foKCPQug"/>
+    <stereotypes xmi:id="_OfEMI08JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_ItvGs08JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OfEMIE8JEeqjk-foKCPQug" text=""/>
+    <sourceRole xmi:id="_OfEMIU8JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_ItvGsk8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OfEzMU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzME8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OfEMIk8JEeqjk-foKCPQug" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory3.uml#_ItM7Mk8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OfEzM08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzMk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OfC-AU8JEeqjk-foKCPQug" targetItem="_OfEzjU8JEeqjk-foKCPQug" sourceItem="_OfC-AE8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OfDlEU8JEeqjk-foKCPQug" targetItem="_OfEzlU8JEeqjk-foKCPQug" sourceItem="_OfDlEE8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_OfXHEE8JEeqjk-foKCPQug" sourceAnchor="317.0,0.0" targetAnchor="76.0,145.0" dashed="true" superClass="_Ofm-sE8JEeqjk-foKCPQug" subClass="_OfEzNE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IsiM0U8JEeqjk-foKCPQug"/>
+    <bendpoints xmi:id="_O9t3Ak8JEeqjk-foKCPQug" sourceY="-37" targetX="-26" targetY="175"/>
+    <bendpoints xmi:id="_O9t3A08JEeqjk-foKCPQug" sourceX="26" sourceY="-37" targetY="175"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Of8V4E8JEeqjk-foKCPQug" sourceAnchor="216.0,0.0" targetAnchor="76.0,145.0" dashed="true" superClass="_Ofm-sE8JEeqjk-foKCPQug" subClass="_OgnrUE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Isl3ME8JEeqjk-foKCPQug"/>
+    <bendpoints xmi:id="_O9t3BE8JEeqjk-foKCPQug" sourceY="-17" targetX="533" targetY="175"/>
+    <bendpoints xmi:id="_O9t3BU8JEeqjk-foKCPQug" sourceX="-533" sourceY="-17" targetY="175"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OgV-gE8JEeqjk-foKCPQug" source="_OgnrUE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItvGtE8JEeqjk-foKCPQug"/>
+    <stereotypes xmi:id="_OgnEQU8JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_ItvtwE8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OgmdME8JEeqjk-foKCPQug" text=""/>
+    <sourceRole xmi:id="_OgmdMU8JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_ItvGtU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OgnEQ08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OgnEQk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OgnEQE8JEeqjk-foKCPQug" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory3.uml#_ItOJUU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OgnERU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OgnERE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OgkA8E8JEeqjk-foKCPQug" targetItem="_OgnreU8JEeqjk-foKCPQug" sourceItem="_OgfIcE8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OgkoAU8JEeqjk-foKCPQug" targetItem="_Ognrk08JEeqjk-foKCPQug" sourceItem="_OgkoAE8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OglPEU8JEeqjk-foKCPQug" targetItem="_Ognrm08JEeqjk-foKCPQug" sourceItem="_OglPEE8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OiDOsE8JEeqjk-foKCPQug" targetItem="_OiFEJ08JEeqjk-foKCPQug" sourceItem="_OhktkE8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OjL3IE8JEeqjk-foKCPQug" sourceAnchor="174.0,0.0" targetAnchor="89.0,145.0" target="_Ofm-sE8JEeqjk-foKCPQug" source="_OkISUE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItwU0E8JEeqjk-foKCPQug"/>
+    <bendpoints xmi:id="_O9t3Bk8JEeqjk-foKCPQug" sourceY="-13" targetX="585" targetY="19"/>
+    <bendpoints xmi:id="_O9ueEE8JEeqjk-foKCPQug" sourceX="-585" sourceY="-13" targetY="19"/>
+    <stereotypes xmi:id="_OkHEM08JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_ItwU0k8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OkHEME8JEeqjk-foKCPQug" text="">
+      <visualProperties xmi:id="_O9xhYE8JEeqjk-foKCPQug" position="14.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OkHEMU8JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_ItwU0U8JEeqjk-foKCPQug"/>
+      <visualProperties xmi:id="_O9w6UE8JEeqjk-foKCPQug" position="-194.0,-9.499999999999886"/>
+      <visibility xmi:id="_OkHrQU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OkHrQE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OkHEMk8JEeqjk-foKCPQug" aggregationKind="NONE" name="customerDao" navigable="true">
+      <modelElement href="Inventory3.uml#_ItRzsE8JEeqjk-foKCPQug"/>
+      <visualProperties xmi:id="_O9xhYU8JEeqjk-foKCPQug" position="67.5,-29.500000000000114"/>
+      <visibility xmi:id="_OkHrQ08JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_OkHrQk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_OjupsE8JEeqjk-foKCPQug" sourceAnchor="187.0,0.0" targetAnchor="77.0,145.0" dashed="true" superClass="_OicQQE8JEeqjk-foKCPQug" subClass="_OkISUE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IsqvsE8JEeqjk-foKCPQug"/>
+    <bendpoints xmi:id="_O9ueEU8JEeqjk-foKCPQug" sourceY="-195" targetX="143" targetY="45"/>
+    <bendpoints xmi:id="_O9ueEk8JEeqjk-foKCPQug" sourceX="-143" sourceY="-195" targetY="45"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OlCRQE8JEeqjk-foKCPQug" sourceAnchor="0.0,65.0" targetAnchor="151.0,73.0" target="_Ofm-sE8JEeqjk-foKCPQug" source="_OmZjME8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItwU008JEeqjk-foKCPQug"/>
+    <stereotypes xmi:id="_OmWf408JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_Itw74E8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OmWf4E8JEeqjk-foKCPQug" text="">
+      <visualProperties xmi:id="_O9yvgE8JEeqjk-foKCPQug" position="4.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OmWf4U8JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_ItwU1E8JEeqjk-foKCPQug"/>
+      <visualProperties xmi:id="_O9yIcE8JEeqjk-foKCPQug" position="-20.0,3.5"/>
+      <visibility xmi:id="_OmYVEU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OmYVEE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OmWf4k8JEeqjk-foKCPQug" aggregationKind="NONE" name="itemDao" navigable="true">
+      <modelElement href="Inventory3.uml#_ItSawU8JEeqjk-foKCPQug"/>
+      <visualProperties xmi:id="_O9yvgU8JEeqjk-foKCPQug" position="5.5,-48.5"/>
+      <visibility xmi:id="_OmYVE08JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_OmYVEk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Ol4l0E8JEeqjk-foKCPQug" sourceAnchor="146.0,0.0" targetAnchor="77.0,145.0" dashed="true" superClass="_OicQQE8JEeqjk-foKCPQug" subClass="_OmZjME8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Issk4E8JEeqjk-foKCPQug"/>
+    <bendpoints xmi:id="_O9ueE08JEeqjk-foKCPQug" sourceY="-26" targetX="-26" targetY="45"/>
+    <bendpoints xmi:id="_O9ueFE8JEeqjk-foKCPQug" sourceX="26" sourceY="-26" targetY="45"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Ontx0E8JEeqjk-foKCPQug" targetItem="_Onu_-08JEeqjk-foKCPQug" sourceItem="_OnGGwE8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Onu_8E8JEeqjk-foKCPQug" targetItem="_OnvAAE8JEeqjk-foKCPQug" sourceItem="_OnuY4E8JEeqjk-foKCPQug"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OoDJAE8JEeqjk-foKCPQug" source="_OohDEE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItsDYE8JEeqjk-foKCPQug"/>
+    <stereotypes xmi:id="_OogcA08JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_ItsqcE8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OogcAE8JEeqjk-foKCPQug" text=""/>
+    <sourceRole xmi:id="_OogcAU8JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_ItsDYU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OogcBU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OogcBE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OogcAk8JEeqjk-foKCPQug" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory3.uml#_ItJQ0E8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OogcB08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OogcBk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Oo1MIE8JEeqjk-foKCPQug" source="_OpUUV08JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItsqcU8JEeqjk-foKCPQug"/>
+    <stereotypes xmi:id="_OpUUUk8JEeqjk-foKCPQug" name="Reference">
+      <modelElement href="Inventory3.uml#_IttRgE8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OpTtQE8JEeqjk-foKCPQug" text=""/>
+    <sourceRole xmi:id="_OpUUUE8JEeqjk-foKCPQug" aggregationKind="NONE" name="">
+      <modelElement href="Inventory3.uml#_Itsqck8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OpUUVE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OpUUU08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OpUUUU8JEeqjk-foKCPQug" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory3.uml#_ItJQ0k8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OpUUVk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OpUUVU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OdjwQE8JEeqjk-foKCPQug" sourceConnectionVisual="_OdnaoE8JEeqjk-foKCPQug" text="Create, Read, Update and Delete controller.&#xD;&#xA;Takes in inputs for each action to be sent to a service class" item="_OdoowE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItnK6E8JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Od7jsE8JEeqjk-foKCPQug" sourceConnectionVisual="_Od7jsU8JEeqjk-foKCPQug" text="Takes in customer details for CRUD functionality&#xD;&#xA; *" item="_OeBDQE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItnK6U8JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OfC-AE8JEeqjk-foKCPQug" sourceConnectionVisual="_OfC-AU8JEeqjk-foKCPQug" text="This is what selects the specific customer from the Sql database&#xD;&#xA;&#x9; * @param resultSet&#xD;&#xA;&#x9; * @return&#xD;&#xA;&#x9; * @throws SQLException" item="_OfEzjU8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Itnx8E8JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OfDlEE8JEeqjk-foKCPQug" sourceConnectionVisual="_OfDlEU8JEeqjk-foKCPQug" text="Reads a customer from the database&#xD;&#xA;&#x9; * @param id - customer id&#xD;&#xA;&#x9; * @return - returns the customer" item="_OfEzlU8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Itnx8U8JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OgfIcE8JEeqjk-foKCPQug" sourceConnectionVisual="_OgkA8E8JEeqjk-foKCPQug" text="Deletes an item from the database" item="_OgnreU8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Itnx9E8JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OgkoAE8JEeqjk-foKCPQug" sourceConnectionVisual="_OgkoAU8JEeqjk-foKCPQug" text="Selects the item from the database&#xD;&#xA;&#x9; * @param resultSet&#xD;&#xA;&#x9; * @return&#xD;&#xA;&#x9; * @throws SQLException" item="_Ognrk08JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Itnx8k8JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OglPEE8JEeqjk-foKCPQug" sourceConnectionVisual="_OglPEU8JEeqjk-foKCPQug" text="Reads an item in the database&#xD;&#xA;&#x9; * @param id&#xD;&#xA;&#x9; * @return - an item in the database" item="_Ognrm08JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Itnx808JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OhktkE8JEeqjk-foKCPQug" sourceConnectionVisual="_OiDOsE8JEeqjk-foKCPQug" text="Returns the inputed parameters of item" item="_OiFEJ08JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItoZAE8JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OnGGwE8JEeqjk-foKCPQug" sourceConnectionVisual="_Ontx0E8JEeqjk-foKCPQug" text="Asks user for input and returns as a string" item="_Onu_-08JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItoZAU8JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OnuY4E8JEeqjk-foKCPQug" sourceConnectionVisual="_Onu_8E8JEeqjk-foKCPQug" text="Asks user for input and returns as a float" item="_OnvAAE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_ItoZAk8JEeqjk-foKCPQug"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_OdoowE8JEeqjk-foKCPQug" comments="_OdjwQE8JEeqjk-foKCPQug" targetConnectionVisual="_OdnaoE8JEeqjk-foKCPQug" name="CrudController" subclassedBy="_Od0O8E8JEeqjk-foKCPQug _OePFsE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Io_woE8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OdoowU8JEeqjk-foKCPQug" position="772.0,31.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Odoowk8JEeqjk-foKCPQug" name="Generics">
+      <modelElement href="Inventory3.uml#_IpAXsE8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <visibility xmi:id="_Odoow08JEeqjk-foKCPQug" label="+"/>
+    <operations xmi:id="_OdooxE8JEeqjk-foKCPQug" name="readAll">
+      <modelElement href="Inventory3.uml#_IpA-wE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OdooxU8JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_Odooxk8JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Odoox08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpA-wU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OdooyE8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_Is6AQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OdooyU8JEeqjk-foKCPQug" name="create">
+      <modelElement href="Inventory3.uml#_IpA-w08JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Odooyk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Odooy08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OdoozE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Is6nUU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OdoozU8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_Is6AQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Odoozk8JEeqjk-foKCPQug" name="update">
+      <modelElement href="Inventory3.uml#_IpBl0E8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Odooz08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Odoo0E8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Odoo0U8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Is6nUk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Odoo0k8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_Is6AQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Odoo008JEeqjk-foKCPQug" name="delete">
+      <modelElement href="Inventory3.uml#_IpBl0U8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Odoo1E8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Odoo1U8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Oekc4E8JEeqjk-foKCPQug" name="ItemController" associationsOut="_Oeb6AE8JEeqjk-foKCPQug _OegygE8JEeqjk-foKCPQug" generalizations="_OePFsE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IpGeUE8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_Oekc4U8JEeqjk-foKCPQug" position="633.0,240.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Oekc4k8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_Oekc408JEeqjk-foKCPQug" defaultValue="Logger.getLogger(ItemController.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory3.uml#_ItMUIE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Oekc5E8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Oekc5U8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_Oekc5k8JEeqjk-foKCPQug" name="Logger">
+        <modelElement href="Inventory3.uml#_IsYb0E8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Oekc508JEeqjk-foKCPQug" name="itemService">
+      <modelElement href="Inventory3.uml#_ItMUIk8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_Oekc6E8JEeqjk-foKCPQug" name="Generics">
+        <modelElement href="Inventory3.uml#_ItM7ME8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Oekc6U8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItM7MU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_Oekc6k8JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_Oekc608JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_Oekc7E8JEeqjk-foKCPQug" name="CrudServices">
+        <modelElement href="Inventory3.uml#_Ipk_cE8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Oekc7U8JEeqjk-foKCPQug" name="getInput">
+      <modelElement href="Inventory3.uml#_IpHFYE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Oekc7k8JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_Oekc708JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Oekc8E8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpHscE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Oekc8U8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Oekc8k8JEeqjk-foKCPQug" name="getInputFloat">
+      <modelElement href="Inventory3.uml#_IpHscU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Oekc808JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_Oekc9E8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Oekc9U8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpHsck8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Oekc9k8JEeqjk-foKCPQug" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Oekc908JEeqjk-foKCPQug" name="readAll">
+      <modelElement href="Inventory3.uml#_IpHsc08JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_Oekc-E8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpITgE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Oekc-U8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpITgU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_Oekc-k8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Oekc-08JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Oekc_E8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpHsdE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Oekc_U8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Oekc_k8JEeqjk-foKCPQug" name="create">
+      <modelElement href="Inventory3.uml#_IpITg08JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_Oekc_08JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpI6kE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OekdAE8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpI6kU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OekdAU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OekdAk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OekdA08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IsfwkE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OekdBE8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OekdBU8JEeqjk-foKCPQug" name="update">
+      <modelElement href="Inventory3.uml#_IpI6k08JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OekdBk8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpJhoE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OekdB08JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpJhoU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OekdCE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OekdCU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OekdCk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IsfwkU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OekdC08JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OekdDE8JEeqjk-foKCPQug" name="delete">
+      <modelElement href="Inventory3.uml#_IpJho08JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OekdDU8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpKIsE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OekdDk8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpKIsU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OekdD08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OekdEE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_OekdEU8JEeqjk-foKCPQug" name="ItemController">
+      <modelElement href="Inventory3.uml#_IsfJgE8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_OekdEk8JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_OekdE08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OekdFE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OekdFU8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IsfJhE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OekdFk8JEeqjk-foKCPQug" name="ItemController">
+          <modelElement href="Inventory3.uml#_IpGeUE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OekdF08JEeqjk-foKCPQug" name="itemService">
+        <modelElement href="Inventory3.uml#_IsfJgU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OekdGE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OekdGU8JEeqjk-foKCPQug" name="CrudServices">
+          <modelElement href="Inventory3.uml#_Ipk_cE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OfEzNE8JEeqjk-foKCPQug" name="CustomerDaoMysql" associationsOut="_OezGYE8JEeqjk-foKCPQug" generalizations="_OfXHEE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IpLW0E8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OfEzNU8JEeqjk-foKCPQug" position="11.0,1193.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OfEzNk8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_OfEzN08JEeqjk-foKCPQug" defaultValue="Logger.getLogger(CustomerDaoMysql.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory3.uml#_ItM7Mk8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OfEzOE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzOU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OfEzOk8JEeqjk-foKCPQug" name="Logger">
+        <modelElement href="Inventory3.uml#_IsYb0E8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OfEzO08JEeqjk-foKCPQug" name="jdbcConnectionUrl">
+      <modelElement href="Inventory3.uml#_ItM7NE8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OfEzPE8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItNiQE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OfEzPU8JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OfEzPk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OfEzP08JEeqjk-foKCPQug" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OfEzQE8JEeqjk-foKCPQug" name="username">
+      <modelElement href="Inventory3.uml#_ItNiQU8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OfEzQU8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItNiQk8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OfEzQk8JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OfEzQ08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OfEzRE8JEeqjk-foKCPQug" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OfEzRU8JEeqjk-foKCPQug" name="password">
+      <modelElement href="Inventory3.uml#_ItNiQ08JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OfEzRk8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItOJUE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OfEzR08JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OfEzSE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OfEzSU8JEeqjk-foKCPQug" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OfEzSk8JEeqjk-foKCPQug" name="CustomerDaoMysql">
+      <modelElement href="Inventory3.uml#_IpL94E8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_OfEzS08JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_OfEzTE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzTU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OfEzTk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpMk8k8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OfEzT08JEeqjk-foKCPQug" name="CustomerDaoMysql">
+          <modelElement href="Inventory3.uml#_IpLW0E8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OfEzUE8JEeqjk-foKCPQug" name="username">
+        <modelElement href="Inventory3.uml#_IpL94U8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzUU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEzUk8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OfEzU08JEeqjk-foKCPQug" name="password">
+        <modelElement href="Inventory3.uml#_IpL94k8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzVE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEzVU8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OfEzVk8JEeqjk-foKCPQug" name="CustomerDaoMysql">
+      <modelElement href="Inventory3.uml#_IpMk808JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_OfEzV08JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_OfEzWE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzWU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OfEzWk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpNMAE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OfEzW08JEeqjk-foKCPQug" name="CustomerDaoMysql">
+          <modelElement href="Inventory3.uml#_IpLW0E8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OfEzXE8JEeqjk-foKCPQug" name="jdbcConnectionUrl">
+        <modelElement href="Inventory3.uml#_IpMk9E8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzXU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEzXk8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OfEzX08JEeqjk-foKCPQug" name="username">
+        <modelElement href="Inventory3.uml#_IpMk9U8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzYE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEzYU8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OfEzYk8JEeqjk-foKCPQug" name="password">
+        <modelElement href="Inventory3.uml#_IpMk9k8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzY08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEzZE8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OfEzZU8JEeqjk-foKCPQug" name="readAll">
+      <modelElement href="Inventory3.uml#_IpNMAU8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OfEzZk8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpNzEU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OfEzZ08JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpNzEk8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OfEzaE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzaU8JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_OfEzak8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpNMAk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OfEza08JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OfEzbE8JEeqjk-foKCPQug" name="readLatest">
+      <modelElement href="Inventory3.uml#_IpOaIE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OfEzbU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzbk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OfEzb08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Isiz4E8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OfEzcE8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OfEzcU8JEeqjk-foKCPQug" name="delete">
+      <modelElement href="Inventory3.uml#_IpOaIU8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OfEzck8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpPBMU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OfEzc08JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpPBMk8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OfEzdE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzdU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OfEzdk8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_IpPBME8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzd08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEzeE8JEeqjk-foKCPQug" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OfEzeU8JEeqjk-foKCPQug" name="create">
+      <modelElement href="Inventory3.uml#_Isja8E8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OfEzek8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_Isja808JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OfEze08JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_Isja9E8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OfEzfE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzfU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OfEzfk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Isja8k8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OfEzf08JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OfEzgE8JEeqjk-foKCPQug" name="customer">
+        <modelElement href="Inventory3.uml#_Isja8U8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzgU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEzgk8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OfEzg08JEeqjk-foKCPQug" name="update">
+      <modelElement href="Inventory3.uml#_IskCAE8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OfEzhE8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IskCA08JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OfEzhU8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IskCBE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OfEzhk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzh08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OfEziE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IskCAk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OfEziU8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OfEzik8JEeqjk-foKCPQug" name="customer">
+        <modelElement href="Inventory3.uml#_IskCAU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzi08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEzjE8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OfEzjU8JEeqjk-foKCPQug" comments="_OfC-AE8JEeqjk-foKCPQug" targetConnectionVisual="_OfC-AU8JEeqjk-foKCPQug" name="customerFromResultSet">
+      <modelElement href="Inventory3.uml#_Is71cE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OfEzjk8JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_OfEzj08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OfEzkE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Is71ck8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OfEzkU8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OfEzkk8JEeqjk-foKCPQug" name="resultSet">
+        <modelElement href="Inventory3.uml#_Is71cU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzk08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEzlE8JEeqjk-foKCPQug" name="ResultSet">
+          <modelElement href="Inventory3.uml#_Isg-sU8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OfEzlU8JEeqjk-foKCPQug" comments="_OfDlEE8JEeqjk-foKCPQug" targetConnectionVisual="_OfDlEU8JEeqjk-foKCPQug" name="readCustomer">
+      <modelElement href="Inventory3.uml#_Is9DkE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OfEzlk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OfEzl08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OfEzmE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Is9Dkk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OfEzmU8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OfEzmk8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_Is9DkU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OfEzm08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OfEznE8JEeqjk-foKCPQug" name="Long">
+          <modelElement href="Inventory3.uml#_Is8cgU8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Ofm-sE8JEeqjk-foKCPQug" name="Dao" associationsIn="_OjL3IE8JEeqjk-foKCPQug _OlCRQE8JEeqjk-foKCPQug" subclassedBy="_OfXHEE8JEeqjk-foKCPQug _Of8V4E8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IpRdcE8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_Ofm-sU8JEeqjk-foKCPQug" position="278.0,836.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Ofm-sk8JEeqjk-foKCPQug" name="Generics">
+      <modelElement href="Inventory3.uml#_IpSEgE8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <visibility xmi:id="_Ofm-s08JEeqjk-foKCPQug" label="+"/>
+    <operations xmi:id="_Ofm-tE8JEeqjk-foKCPQug" name="readAll">
+      <modelElement href="Inventory3.uml#_IpSEgU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Ofm-tU8JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_Ofm-tk8JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Ofm-t08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpSrkE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Ofm-uE8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_Is9qoE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ofm-uU8JEeqjk-foKCPQug" name="delete">
+      <modelElement href="Inventory3.uml#_IpSrkk8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Ofm-uk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Ofm-u08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ofm-vE8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_IpSrk08JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Ofm-vU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Ofm-vk8JEeqjk-foKCPQug" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ofm-v08JEeqjk-foKCPQug" name="create">
+      <modelElement href="Inventory3.uml#_Is-RsE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Ofm-wE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Ofm-wU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ofm-wk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Is-Rsk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Ofm-w08JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_Is9qoE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ofm-xE8JEeqjk-foKCPQug" name="t">
+        <modelElement href="Inventory3.uml#_Is-RsU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Ofm-xU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Ofm-xk8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_Is9qoE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ofm-x08JEeqjk-foKCPQug" name="update">
+      <modelElement href="Inventory3.uml#_Is-Rs08JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Ofm-yE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Ofm-yU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ofm-yk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Is-4wE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Ofm-y08JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_Is9qoE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ofm-zE8JEeqjk-foKCPQug" name="t">
+        <modelElement href="Inventory3.uml#_Is-RtE8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Ofm-zU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Ofm-zk8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_Is9qoE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OgnrUE8JEeqjk-foKCPQug" name="ItemDaoMySql" associationsOut="_OgV-gE8JEeqjk-foKCPQug" generalizations="_Of8V4E8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IpT5sE8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OgnrUU8JEeqjk-foKCPQug" position="671.0,1173.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OgnrUk8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_OgnrU08JEeqjk-foKCPQug" defaultValue="Logger.getLogger(ItemDaoMySql.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory3.uml#_ItOJUU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OgnrVE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OgnrVU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OgnrVk8JEeqjk-foKCPQug" name="Logger">
+        <modelElement href="Inventory3.uml#_IsYb0E8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OgnrV08JEeqjk-foKCPQug" name="jdbcConnectionUrl">
+      <modelElement href="Inventory3.uml#_ItOJU08JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OgnrWE8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItOwYE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OgnrWU8JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OgnrWk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OgnrW08JEeqjk-foKCPQug" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OgnrXE8JEeqjk-foKCPQug" name="username">
+      <modelElement href="Inventory3.uml#_ItOwYU8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OgnrXU8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItOwYk8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OgnrXk8JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OgnrX08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OgnrYE8JEeqjk-foKCPQug" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OgnrYU8JEeqjk-foKCPQug" name="password">
+      <modelElement href="Inventory3.uml#_ItOwY08JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OgnrYk8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItOwZE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OgnrY08JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OgnrZE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OgnrZU8JEeqjk-foKCPQug" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OgnrZk8JEeqjk-foKCPQug" name="ItemDaoMySql">
+      <modelElement href="Inventory3.uml#_IpUgwE8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_OgnrZ08JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_OgnraE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OgnraU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ognrak8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpVH0E8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Ognra08JEeqjk-foKCPQug" name="ItemDaoMySql">
+          <modelElement href="Inventory3.uml#_IpT5sE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OgnrbE8JEeqjk-foKCPQug" name="username">
+        <modelElement href="Inventory3.uml#_IpUgwU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OgnrbU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Ognrbk8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ognrb08JEeqjk-foKCPQug" name="password">
+        <modelElement href="Inventory3.uml#_IpUgwk8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OgnrcE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OgnrcU8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ognrck8JEeqjk-foKCPQug" name="readAll">
+      <modelElement href="Inventory3.uml#_IpVH0U8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_Ognrc08JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpVu4E8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OgnrdE8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpVu4U8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OgnrdU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Ognrdk8JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_Ognrd08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpVH0k8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OgnreE8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OgnreU8JEeqjk-foKCPQug" comments="_OgfIcE8JEeqjk-foKCPQug" targetConnectionVisual="_OgkA8E8JEeqjk-foKCPQug" name="delete">
+      <modelElement href="Inventory3.uml#_IpWV8E8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Ognrek8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Ognre08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OgnrfE8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_IpWV8U8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OgnrfU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Ognrfk8JEeqjk-foKCPQug" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ognrf08JEeqjk-foKCPQug" name="create">
+      <modelElement href="Inventory3.uml#_IsmeQE8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OgnrgE8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IsnFUE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OgnrgU8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IsnFUU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_Ognrgk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Ognrg08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OgnrhE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IsmeQk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OgnrhU8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ognrhk8JEeqjk-foKCPQug" name="item">
+        <modelElement href="Inventory3.uml#_IsmeQU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Ognrh08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OgnriE8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OgnriU8JEeqjk-foKCPQug" name="update">
+      <modelElement href="Inventory3.uml#_IsnFU08JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_Ognrik8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IsnsYE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ognri08JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IsnsYU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OgnrjE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OgnrjU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ognrjk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IsnFVU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Ognrj08JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OgnrkE8JEeqjk-foKCPQug" name="item">
+        <modelElement href="Inventory3.uml#_IsnFVE8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OgnrkU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Ognrkk8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ognrk08JEeqjk-foKCPQug" comments="_OgkoAE8JEeqjk-foKCPQug" targetConnectionVisual="_OgkoAU8JEeqjk-foKCPQug" name="itemFromResultSet">
+      <modelElement href="Inventory3.uml#_Is-4wU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OgnrlE8JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_OgnrlU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ognrlk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Is_f0E8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Ognrl08JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OgnrmE8JEeqjk-foKCPQug" name="resultSet">
+        <modelElement href="Inventory3.uml#_Is-4wk8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OgnrmU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Ognrmk8JEeqjk-foKCPQug" name="ResultSet">
+          <modelElement href="Inventory3.uml#_Isg-sU8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ognrm08JEeqjk-foKCPQug" comments="_OglPEE8JEeqjk-foKCPQug" targetConnectionVisual="_OglPEU8JEeqjk-foKCPQug" name="readItem">
+      <modelElement href="Inventory3.uml#_Is_f0U8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OgnrnE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OgnrnU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ognrnk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Is_f008JEeqjk-foKCPQug"/>
+        <type xmi:id="_Ognrn08JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OgnroE8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_Is_f0k8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OgnroU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Ognrok8JEeqjk-foKCPQug" name="Long">
+          <modelElement href="Inventory3.uml#_Is8cgU8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Og70YE8JEeqjk-foKCPQug" name="Customer">
+    <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_Og70YU8JEeqjk-foKCPQug" position="450.0,1540.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Og70Yk8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_Og70Y08JEeqjk-foKCPQug" name="id">
+      <modelElement href="Inventory3.uml#_ItPXcE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Og70ZE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Og70ZU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_Og70Zk8JEeqjk-foKCPQug" name="Long">
+        <modelElement href="Inventory3.uml#_Is8cgU8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Og70Z08JEeqjk-foKCPQug" name="firstName">
+      <modelElement href="Inventory3.uml#_ItPXcU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Og70aE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Og70aU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_Og70ak8JEeqjk-foKCPQug" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Og70a08JEeqjk-foKCPQug" name="surname">
+      <modelElement href="Inventory3.uml#_ItPXck8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Og70bE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Og70bU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_Og70bk8JEeqjk-foKCPQug" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Og70b08JEeqjk-foKCPQug" name="Customer">
+      <modelElement href="Inventory3.uml#_IpaAUE8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_Og70cE8JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_Og70cU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Og70ck8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Og70c08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpanYE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Og70dE8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Og70dU8JEeqjk-foKCPQug" name="firstName">
+        <modelElement href="Inventory3.uml#_IpaAUU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Og70dk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Og70d08JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Og70eE8JEeqjk-foKCPQug" name="surname">
+        <modelElement href="Inventory3.uml#_IpaAUk8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Og70eU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Og70ek8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Og70e08JEeqjk-foKCPQug" name="toString">
+      <modelElement href="Inventory3.uml#_IpanYU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Og70fE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Og70fU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Og70fk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpbOcE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Og70f08JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Og70gE8JEeqjk-foKCPQug" name="hashCode">
+      <modelElement href="Inventory3.uml#_IpbOcU8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_Og70gU8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpbOc08JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Og70gk8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_Ipb1gE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_Og70g08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Og70hE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Og70hU8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpbOck8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Og70hk8JEeqjk-foKCPQug" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Og70h08JEeqjk-foKCPQug" name="Customer">
+      <modelElement href="Inventory3.uml#_ItAG4E8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_Og70iE8JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_Og70iU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Og70ik8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Og70i08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_ItAt8E8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Og70jE8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Og70jU8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_ItAG4U8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Og70jk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Og70j08JEeqjk-foKCPQug" name="Long">
+          <modelElement href="Inventory3.uml#_Is8cgU8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Og70kE8JEeqjk-foKCPQug" name="firstName">
+        <modelElement href="Inventory3.uml#_ItAG4k8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Og70kU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Og70kk8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Og70k08JEeqjk-foKCPQug" name="surname">
+        <modelElement href="Inventory3.uml#_ItAG408JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Og70lE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Og70lU8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Og70lk8JEeqjk-foKCPQug" name="equals">
+      <modelElement href="Inventory3.uml#_ItBVAU8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_Og70l08JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItBVBE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Og70mE8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_ItB8EE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_Og70mU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Og70mk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Og70m08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_ItBVA08JEeqjk-foKCPQug"/>
+        <type xmi:id="_Og70nE8JEeqjk-foKCPQug" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Og70nU8JEeqjk-foKCPQug" name="obj">
+        <modelElement href="Inventory3.uml#_ItBVAk8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_Og70nk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_Og70n08JEeqjk-foKCPQug" name="Object">
+          <modelElement href="Inventory3.uml#_ItAt8U8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OiEc0E8JEeqjk-foKCPQug" name="Item">
+    <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OiFD4E8JEeqjk-foKCPQug" position="11.0,1544.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OiFD4U8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_OiFD4k8JEeqjk-foKCPQug" name="id">
+      <modelElement href="Inventory3.uml#_ItQlkU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OiFD408JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFD5E8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OiFD5U8JEeqjk-foKCPQug" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OiFD5k8JEeqjk-foKCPQug" name="itemName">
+      <modelElement href="Inventory3.uml#_ItRMoE8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OiFD508JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItRMoU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OiFD6E8JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OiFD6U8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OiFD6k8JEeqjk-foKCPQug" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OiFD608JEeqjk-foKCPQug" name="itemValue">
+      <modelElement href="Inventory3.uml#_ItRMok8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OiFD7E8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItRMo08JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OiFD7U8JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OiFD7k8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OiFD708JEeqjk-foKCPQug" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OiFD8E8JEeqjk-foKCPQug" name="Item">
+      <modelElement href="Inventory3.uml#_IphVEE8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_OiFD8U8JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_OiFD8k8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFD808JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OiFD9E8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IphVFU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OiFD9U8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OiFD9k8JEeqjk-foKCPQug" name="itemName">
+        <modelElement href="Inventory3.uml#_IphVEU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OiFD908JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OiFD-E8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OiFD-U8JEeqjk-foKCPQug" name="itemValue">
+        <modelElement href="Inventory3.uml#_IphVEk8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OiFD-k8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OiFD-08JEeqjk-foKCPQug" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OiFD_E8JEeqjk-foKCPQug" name="Item">
+      <modelElement href="Inventory3.uml#_Iph8IE8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_OiFD_U8JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_OiFD_k8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFD_08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OiFEAE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Iph8Jk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OiFEAU8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OiFEAk8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_Iph8IU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OiFEA08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OiFEBE8JEeqjk-foKCPQug" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OiFEBU8JEeqjk-foKCPQug" name="itemName">
+        <modelElement href="Inventory3.uml#_Iph8Ik8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OiFEBk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OiFEB08JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OiFECE8JEeqjk-foKCPQug" name="itemValue">
+        <modelElement href="Inventory3.uml#_Iph8I08JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OiFECU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OiFECk8JEeqjk-foKCPQug" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OiFEC08JEeqjk-foKCPQug" name="setId">
+      <modelElement href="Inventory3.uml#_IpijME8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OiFEDE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFEDU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OiFEDk8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_IpijMU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OiFED08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OiFEEE8JEeqjk-foKCPQug" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OiFEEU8JEeqjk-foKCPQug" name="getitemName">
+      <modelElement href="Inventory3.uml#_IpijMk8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OiFEEk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFEE08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OiFEFE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpijM08JEeqjk-foKCPQug"/>
+        <type xmi:id="_OiFEFU8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OiFEFk8JEeqjk-foKCPQug" name="setitemName">
+      <modelElement href="Inventory3.uml#_IpijNE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OiFEF08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFEGE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OiFEGU8JEeqjk-foKCPQug" name="itemName">
+        <modelElement href="Inventory3.uml#_IpjKQE8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OiFEGk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OiFEG08JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OiFEHE8JEeqjk-foKCPQug" name="getitemValue">
+      <modelElement href="Inventory3.uml#_IpjKQU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OiFEHU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFEHk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OiFEH08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpjKQk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OiFEIE8JEeqjk-foKCPQug" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OiFEIU8JEeqjk-foKCPQug" name="setitemValue">
+      <modelElement href="Inventory3.uml#_IpjKQ08JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OiFEIk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFEI08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OiFEJE8JEeqjk-foKCPQug" name="itemValue">
+        <modelElement href="Inventory3.uml#_IpjKRE8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OiFEJU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OiFEJk8JEeqjk-foKCPQug" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OiFEJ08JEeqjk-foKCPQug" comments="_OhktkE8JEeqjk-foKCPQug" targetConnectionVisual="_OiDOsE8JEeqjk-foKCPQug" name="toString">
+      <modelElement href="Inventory3.uml#_IpjxUE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OiFEKE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFEKU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OiFEKk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpjxUU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OiFEK08JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OiFELE8JEeqjk-foKCPQug" name="hashCode">
+      <modelElement href="Inventory3.uml#_IpjxUk8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OiFELU8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpjxVE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OiFELk8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpkYYE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OiFEL08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFEME8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OiFEMU8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpjxU08JEeqjk-foKCPQug"/>
+        <type xmi:id="_OiFEMk8JEeqjk-foKCPQug" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OiFEM08JEeqjk-foKCPQug" name="equals">
+      <modelElement href="Inventory3.uml#_ItDKME8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OiFENE8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItDKM08JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OiFENU8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_ItDxQE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OiFENk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OiFEN08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OiFEOE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_ItDKMk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OiFEOU8JEeqjk-foKCPQug" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OiFEOk8JEeqjk-foKCPQug" name="obj">
+        <modelElement href="Inventory3.uml#_ItDKMU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OiFEO08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OiFEPE8JEeqjk-foKCPQug" name="Object">
+          <modelElement href="Inventory3.uml#_ItAt8U8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_OicQQE8JEeqjk-foKCPQug" name="CrudServices" associationsIn="_OeAcME8JEeqjk-foKCPQug _OegygE8JEeqjk-foKCPQug" subclassedBy="_OjupsE8JEeqjk-foKCPQug _Ol4l0E8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Ipk_cE8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OicQQU8JEeqjk-foKCPQug" position="745.0,628.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_OicQQk8JEeqjk-foKCPQug" name="Generics">
+      <modelElement href="Inventory3.uml#_IplmgE8JEeqjk-foKCPQug"/>
+    </stereotypes>
+    <visibility xmi:id="_OicQQ08JEeqjk-foKCPQug" label="+"/>
+    <operations xmi:id="_OicQRE8JEeqjk-foKCPQug" name="readAll">
+      <modelElement href="Inventory3.uml#_IpmNkE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OicQRU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OicQRk8JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_OicQR08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpmNkU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OicQSE8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_ItDxQk8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OicQSU8JEeqjk-foKCPQug" name="create">
+      <modelElement href="Inventory3.uml#_ItEYUU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OicQSk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OicQS08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OicQTE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_ItEYU08JEeqjk-foKCPQug"/>
+        <type xmi:id="_OicQTU8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_ItDxQk8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OicQTk8JEeqjk-foKCPQug" name="t">
+        <modelElement href="Inventory3.uml#_ItEYUk8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OicQT08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OicQUE8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_ItDxQk8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OicQUU8JEeqjk-foKCPQug" name="update">
+      <modelElement href="Inventory3.uml#_ItE_YE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OicQUk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OicQU08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OicQVE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_ItE_Yk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OicQVU8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_ItDxQk8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OicQVk8JEeqjk-foKCPQug" name="t">
+        <modelElement href="Inventory3.uml#_ItE_YU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OicQV08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OicQWE8JEeqjk-foKCPQug" name="T">
+          <modelElement href="Inventory3.uml#_ItDxQk8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OicQWU8JEeqjk-foKCPQug" name="delete">
+      <modelElement href="Inventory3.uml#_ItE_Y08JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OicQWk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OicQW08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OicQXE8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_ItE_ZE8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OicQXU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OicQXk8JEeqjk-foKCPQug" name="Long">
+          <modelElement href="Inventory3.uml#_Is8cgU8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OkISUE8JEeqjk-foKCPQug" name="CustomerServices" associationsOut="_OjL3IE8JEeqjk-foKCPQug" generalizations="_OjupsE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IpnbsE8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OkISUU8JEeqjk-foKCPQug" position="778.0,1013.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OkISUk8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_OkISU08JEeqjk-foKCPQug" name="customerDao">
+      <modelElement href="Inventory3.uml#_ItRzsE8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OkISVE8JEeqjk-foKCPQug" name="Generics">
+        <modelElement href="Inventory3.uml#_ItRzsU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OkISVU8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItSawE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OkISVk8JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_OkISV08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OkISWE8JEeqjk-foKCPQug" name="Dao">
+        <modelElement href="Inventory3.uml#_IpRdcE8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OkISWU8JEeqjk-foKCPQug" name="readAll">
+      <modelElement href="Inventory3.uml#_IpoCwE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OkISWk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OkISW08JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_OkISXE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpoCwU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OkISXU8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OkISXk8JEeqjk-foKCPQug" name="CustomerServices">
+      <modelElement href="Inventory3.uml#_IsrWwU8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_OkISX08JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_OkISYE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OkISYU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OkISYk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IsrWxU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OkISY08JEeqjk-foKCPQug" name="CustomerServices">
+          <modelElement href="Inventory3.uml#_IpnbsE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OkISZE8JEeqjk-foKCPQug" name="customerDao">
+        <modelElement href="Inventory3.uml#_IsrWwk8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OkISZU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OkISZk8JEeqjk-foKCPQug" name="Dao">
+          <modelElement href="Inventory3.uml#_IpRdcE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OkISZ08JEeqjk-foKCPQug" name="create">
+      <modelElement href="Inventory3.uml#_Isr90U8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OkISaE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OkISaU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OkISak8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Isr9008JEeqjk-foKCPQug"/>
+        <type xmi:id="_OkISa08JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OkISbE8JEeqjk-foKCPQug" name="customer">
+        <modelElement href="Inventory3.uml#_Isr90k8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OkISbU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OkISbk8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OkISb08JEeqjk-foKCPQug" name="update">
+      <modelElement href="Inventory3.uml#_Isr91E8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OkIScE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OkIScU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OkISck8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Isr91k8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OkISc08JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OkISdE8JEeqjk-foKCPQug" name="customer">
+        <modelElement href="Inventory3.uml#_Isr91U8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OkISdU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OkISdk8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OkISd08JEeqjk-foKCPQug" name="delete">
+      <modelElement href="Inventory3.uml#_ItFmcE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OkISeE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OkISeU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OkISek8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_ItFmcU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OkISe08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OkISfE8JEeqjk-foKCPQug" name="Long">
+          <modelElement href="Inventory3.uml#_Is8cgU8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OmZjME8JEeqjk-foKCPQug" name="ItemServices" associationsOut="_OlCRQE8JEeqjk-foKCPQug" generalizations="_Ol4l0E8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Ipp38E8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OmZjMU8JEeqjk-foKCPQug" position="650.0,844.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OmZjMk8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_OmZjM08JEeqjk-foKCPQug" name="itemDao">
+      <modelElement href="Inventory3.uml#_ItSawU8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OmZjNE8JEeqjk-foKCPQug" name="Generics">
+        <modelElement href="Inventory3.uml#_ItTB0E8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OmZjNU8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItTB0U8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OmZjNk8JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_OmZjN08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OmZjOE8JEeqjk-foKCPQug" name="Dao">
+        <modelElement href="Inventory3.uml#_IpRdcE8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OmZjOU8JEeqjk-foKCPQug" name="readAll">
+      <modelElement href="Inventory3.uml#_IpqfAE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OmZjOk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OmZjO08JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_OmZjPE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IprGEE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OmZjPU8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OmZjPk8JEeqjk-foKCPQug" name="ItemServices">
+      <modelElement href="Inventory3.uml#_IstL8U8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_OmZjP08JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_OmZjQE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OmZjQU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OmZjQk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IstzAk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OmZjQ08JEeqjk-foKCPQug" name="ItemServices">
+          <modelElement href="Inventory3.uml#_Ipp38E8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OmZjRE8JEeqjk-foKCPQug" name="itemDao">
+        <modelElement href="Inventory3.uml#_IstL8k8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OmZjRU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OmZjRk8JEeqjk-foKCPQug" name="Dao">
+          <modelElement href="Inventory3.uml#_IpRdcE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmZjR08JEeqjk-foKCPQug" name="create">
+      <modelElement href="Inventory3.uml#_IstzBE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OmZjSE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OmZjSU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OmZjSk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IsuaEE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OmZjS08JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OmZjTE8JEeqjk-foKCPQug" name="item">
+        <modelElement href="Inventory3.uml#_IstzBU8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OmZjTU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OmZjTk8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmZjT08JEeqjk-foKCPQug" name="update">
+      <modelElement href="Inventory3.uml#_IsuaEU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OmZjUE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OmZjUU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OmZjUk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IsuaE08JEeqjk-foKCPQug"/>
+        <type xmi:id="_OmZjU08JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OmZjVE8JEeqjk-foKCPQug" name="item">
+        <modelElement href="Inventory3.uml#_IsuaEk8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OmZjVU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OmZjVk8JEeqjk-foKCPQug" name="Item">
+          <modelElement href="Inventory3.uml#_IpguAE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OmZjV08JEeqjk-foKCPQug" name="delete">
+      <modelElement href="Inventory3.uml#_ItFmck8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OmZjWE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OmZjWU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OmZjWk8JEeqjk-foKCPQug" name="id">
+        <modelElement href="Inventory3.uml#_ItFmc08JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OmZjW08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OmZjXE8JEeqjk-foKCPQug" name="Long">
+          <modelElement href="Inventory3.uml#_Is8cgU8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Onu_8U8JEeqjk-foKCPQug" name="Utils">
+    <modelElement href="Inventory3.uml#_IpsUME8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_Onu_8k8JEeqjk-foKCPQug" position="1377.0,1552.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Onu_808JEeqjk-foKCPQug" label="+"/>
+    <operations xmi:id="_Onu_9E8JEeqjk-foKCPQug" name="Utils">
+      <modelElement href="Inventory3.uml#_Ips7QE8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_Onu_9U8JEeqjk-foKCPQug" keyword="create"/>
+      <stereotypes xmi:id="_Onu_9k8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IptiUE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_Onu_908JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_Onu_-E8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Onu_-U8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IptiUU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_Onu_-k8JEeqjk-foKCPQug" name="Utils">
+          <modelElement href="Inventory3.uml#_IpsUME8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Onu_-08JEeqjk-foKCPQug" comments="_OnGGwE8JEeqjk-foKCPQug" targetConnectionVisual="_Ontx0E8JEeqjk-foKCPQug" name="getInput" staticOperation="true">
+      <modelElement href="Inventory3.uml#_IptiUk8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_Onu__E8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_Onu__U8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Onu__k8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IptiU08JEeqjk-foKCPQug"/>
+        <type xmi:id="_Onu__08JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OnvAAE8JEeqjk-foKCPQug" comments="_OnuY4E8JEeqjk-foKCPQug" targetConnectionVisual="_Onu_8E8JEeqjk-foKCPQug" name="getInputFloat" staticOperation="true">
+      <modelElement href="Inventory3.uml#_IptiVE8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OnvAAU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OnvAAk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OnvAA08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IptiVU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OnvABE8JEeqjk-foKCPQug" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OohDEE8JEeqjk-foKCPQug" name="Ims" associationsOut="_OoDJAE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Io4b4E8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OohDEU8JEeqjk-foKCPQug" position="946.0,1548.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OohDEk8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_OohDE08JEeqjk-foKCPQug" defaultValue="Logger.getLogger(Ims.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory3.uml#_ItJQ0E8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OohDFE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OohDFU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OohDFk8JEeqjk-foKCPQug" name="Logger">
+        <modelElement href="Inventory3.uml#_IsYb0E8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OohDF08JEeqjk-foKCPQug" name="imsSystem">
+      <modelElement href="Inventory3.uml#_Io6RF08JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OohDGE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OohDGU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_OohDGk8JEeqjk-foKCPQug" name="doAction">
+      <modelElement href="Inventory3.uml#_IsZC4U8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OohDG08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OohDHE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OohDHU8JEeqjk-foKCPQug" name="crudController">
+        <modelElement href="Inventory3.uml#_IsZp8E8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OohDHk8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OohDH08JEeqjk-foKCPQug" name="CrudController">
+          <modelElement href="Inventory3.uml#_Io_woE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OohDIE8JEeqjk-foKCPQug" name="action">
+        <modelElement href="Inventory3.uml#_IsZp8U8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OohDIU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OohDIk8JEeqjk-foKCPQug" name="Action">
+          <modelElement href="Inventory3.uml#_Io8GQk8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OpUUV08JEeqjk-foKCPQug" name="Runner" associationsOut="_Oo1MIE8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_Io7fME8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OpUUWE8JEeqjk-foKCPQug" position="1628.0,1545.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OpUUWU8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_OpUUWk8JEeqjk-foKCPQug" defaultValue="Logger.getLogger(Runner.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory3.uml#_ItJQ0k8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OpUUW08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OpUUXE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OpUUXU8JEeqjk-foKCPQug" name="Logger">
+        <modelElement href="Inventory3.uml#_IsYb0E8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OpUUXk8JEeqjk-foKCPQug" name="main" staticOperation="true">
+      <modelElement href="Inventory3.uml#_Io7fMU8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OpUUX08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OpUUYE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OpUUYU8JEeqjk-foKCPQug" name="args">
+        <modelElement href="Inventory3.uml#_Io8GQE8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OpUUYk8JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_OpUUY08JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OeBDQE8JEeqjk-foKCPQug" comments="_Od7jsE8JEeqjk-foKCPQug" targetConnectionVisual="_Od7jsU8JEeqjk-foKCPQug" name="CustomerController" associationsOut="_Od_OEE8JEeqjk-foKCPQug _OeAcME8JEeqjk-foKCPQug" generalizations="_Od0O8E8JEeqjk-foKCPQug">
+    <modelElement href="Inventory3.uml#_IpCM4E8JEeqjk-foKCPQug"/>
+    <visualProperties xmi:id="_OeBDQU8JEeqjk-foKCPQug" position="1138.0,808.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OeBDQk8JEeqjk-foKCPQug" label="+"/>
+    <attributes xmi:id="_OeBDQ08JEeqjk-foKCPQug" defaultValue="Logger.getLogger(CustomerController.class)" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory3.uml#_ItLGAk8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OeBDRE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OeBDRU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OeBDRk8JEeqjk-foKCPQug" name="Logger">
+        <modelElement href="Inventory3.uml#_IsYb0E8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OeBDR08JEeqjk-foKCPQug" name="customerService">
+      <modelElement href="Inventory3.uml#_ItLtEE8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OeBDSE8JEeqjk-foKCPQug" name="Generics">
+        <modelElement href="Inventory3.uml#_ItLtEU8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OeBDSU8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_ItLtEk8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OeBDSk8JEeqjk-foKCPQug" label="-"/>
+      <cardinality xmi:id="_OeBDS08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <type xmi:id="_OeBDTE8JEeqjk-foKCPQug" name="CrudServices">
+        <modelElement href="Inventory3.uml#_Ipk_cE8JEeqjk-foKCPQug"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OeBDTU8JEeqjk-foKCPQug" name="getInput">
+      <modelElement href="Inventory3.uml#_IpCz8E8JEeqjk-foKCPQug"/>
+      <visibility xmi:id="_OeBDTk8JEeqjk-foKCPQug" label="~"/>
+      <cardinality xmi:id="_OeBDT08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OeBDUE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpCz8U8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OeBDUU8JEeqjk-foKCPQug" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OeBDUk8JEeqjk-foKCPQug" name="readAll">
+      <modelElement href="Inventory3.uml#_IpCz8k8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OeBDU08JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpDbAk8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OeBDVE8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpECEE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OeBDVU8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OeBDVk8JEeqjk-foKCPQug" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_OeBDV08JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IpDbAE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OeBDWE8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OeBDWU8JEeqjk-foKCPQug" name="create">
+      <modelElement href="Inventory3.uml#_IpECEk8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OeBDWk8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpECE08JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OeBDW08JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpEpIE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OeBDXE8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OeBDXU8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OeBDXk8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Isd7YE8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OeBDX08JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OeBDYE8JEeqjk-foKCPQug" name="update">
+      <modelElement href="Inventory3.uml#_IpEpIk8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OeBDYU8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpEpI08JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OeBDYk8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpFQME8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OeBDY08JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OeBDZE8JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OeBDZU8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_Isd7YU8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OeBDZk8JEeqjk-foKCPQug" name="Customer">
+          <modelElement href="Inventory3.uml#_IpZZQE8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OeBDZ08JEeqjk-foKCPQug" name="delete">
+      <modelElement href="Inventory3.uml#_IpFQMk8JEeqjk-foKCPQug"/>
+      <stereotypes xmi:id="_OeBDaE8JEeqjk-foKCPQug" name="LegacyStyledElement">
+        <modelElement href="Inventory3.uml#_IpFQM08JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OeBDaU8JEeqjk-foKCPQug" name="Annotations">
+        <modelElement href="Inventory3.uml#_IpFQNE8JEeqjk-foKCPQug"/>
+      </stereotypes>
+      <visibility xmi:id="_OeBDak8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OeBDa08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_OeBDbE8JEeqjk-foKCPQug" name="CustomerController">
+      <modelElement href="Inventory3.uml#_IsctQU8JEeqjk-foKCPQug"/>
+      <keywords xmi:id="_OeBDbU8JEeqjk-foKCPQug" keyword="create"/>
+      <visibility xmi:id="_OeBDbk8JEeqjk-foKCPQug" label="+"/>
+      <cardinality xmi:id="_OeBDb08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OeBDcE8JEeqjk-foKCPQug">
+        <modelElement href="Inventory3.uml#_IsdUUk8JEeqjk-foKCPQug"/>
+        <type xmi:id="_OeBDcU8JEeqjk-foKCPQug" name="CustomerController">
+          <modelElement href="Inventory3.uml#_IpCM4E8JEeqjk-foKCPQug"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OeBDck8JEeqjk-foKCPQug" name="customerService">
+        <modelElement href="Inventory3.uml#_IsctQk8JEeqjk-foKCPQug"/>
+        <cardinality xmi:id="_OeBDc08JEeqjk-foKCPQug" label="1" max="1" min="1"/>
+        <type xmi:id="_OeBDdE8JEeqjk-foKCPQug" name="CrudServices">
+          <modelElement href="Inventory3.uml#_Ipk_cE8JEeqjk-foKCPQug"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
