@@ -42,7 +42,7 @@ public class Ims {
 			ItemController itemController = new ItemController(new ItemServices(new ItemDaoMySql(username, password)));
 			doAction(itemController, action);
 			break;
-		case ORDER: // add OrderController class with CRUD
+		case ORDER: 
 			break;
 		case STOP:
 			break;

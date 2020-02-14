@@ -40,8 +40,7 @@ public class Item {
 	public void setitemValue(float itemValue) {
 		this.itemValue = itemValue;
 	}
-	
-	
+
 	/**
 	 * Returns the inputed parameters of item
 	 */
@@ -79,6 +78,5 @@ public class Item {
 			return false;
 		return true;
 	}
-
 
 }
